@@ -1,0 +1,20 @@
+{
+  "name": "cypresscucumber",
+  "version": "1.0.0",
+  "description": "test cucumber+cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "schumaiquer",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.6.0",
+    "faker": "^4.1.0",
+    "cypress-cucumber-preprocessor": "^1.16.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions"
+  }
+}

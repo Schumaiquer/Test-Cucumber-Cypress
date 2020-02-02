@@ -1,0 +1,4 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "baseUrl": "http://demo.redmine.org"
+}
