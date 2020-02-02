@@ -18,7 +18,7 @@ Direto por linha de comando através do comando:
 npm run cy:run
 ```  
 
-Ou através de um dashboard que a própria ferramenta oferece 
+Ou através de um dashboard que a própria ferramenta oferece: 
 
 ```
 npm run cypress:open
